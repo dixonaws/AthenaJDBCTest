@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+fleetbriefing-data/.DS_Store
+fleetbriefing-data/data/.DS_Store
+fleetbriefing-data/data/csv/
+fleetbriefing-data/data/parquet/
+fleetbriefing-data/write-parquet-to-s3.q
