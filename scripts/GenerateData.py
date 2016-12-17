@@ -31,8 +31,6 @@ def main():
     # write 1,000 individual records
     for i in range(0, 1000):
         # form the random data
-
-
         var_rental_date = str(random.randint(01, 12)) + "-" + str(random.randint(01, 30)) + "-" + str(
             random.randint(2010, 2016))
         var_dropoff_date = "03-10-2017"
