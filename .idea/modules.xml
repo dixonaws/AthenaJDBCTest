@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AthenaTest.iml" filepath="$PROJECT_DIR$/AthenaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AthenaJDBCTest.iml" filepath="$PROJECT_DIR$/AthenaJDBCTest.iml" />
     </modules>
   </component>
 </project>
