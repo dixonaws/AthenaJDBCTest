@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f450ccb5-712d-4ade-b7df-d71b350f2d78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/aws/AthenaJDBCTest.java" afterPath="$PROJECT_DIR$/src/com/amazon/aws/AthenaJDBCTest.java" />
-    </list>
+    <list default="true" id="f450ccb5-712d-4ade-b7df-d71b350f2d78" name="Default" comment="" />
     <ignored path="AthenaJDBCTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +61,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="48" />
+    <option name="x" value="204" />
+    <option name="y" value="116" />
     <option name="width" value="1245" />
     <option name="height" value="657" />
   </component>
@@ -290,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="48" width="1245" height="657" extended-state="0" />
+    <frame x="204" y="116" width="1245" height="657" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

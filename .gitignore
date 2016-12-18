@@ -6,3 +6,5 @@ fleetbriefing-data/data/csv/
 fleetbriefing-data/data/csv/gzip
 fleetbriefing-data/data/parquet/
 fleetbriefing-data/write-parquet-to-s3.q
+.idea
+.DS_Store
