@@ -8,12 +8,12 @@ import com.amazonaws.athena.jdbc.AthenaDriver;
 import com.amazonaws.athena.jdbc.shaded.com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.auth.PropertiesFileCredentialsProvider;
 
-
 public class AthenaJDBCTest {
 
     static final String athenaUrl = "jdbc:awsathena://athena.us-east-1.amazonaws.com:443";
 
     public static void main(String[] args) {
+        // the accessKey and secretKey must be supplied on the commandline as arguments 1 and 2
         String accessKey=args[0];
         String secretKey=args[1];
 
@@ -34,7 +34,7 @@ public class AthenaJDBCTest {
 
             String databaseName = "fleetbriefing";
 
-            System.out.println("Connecting to Athena...");
+            System.out.println("Connecting to athena/" + databaseName + "...");
             conn = DriverManager.getConnection(athenaUrl, info);
 
             long startTime=System.currentTimeMillis();
@@ -57,6 +57,7 @@ public class AthenaJDBCTest {
                 //Display values.
                 System.out.println("Pickup location: " + str_pickup_location + ", with " + rs.getString(rentals) + " rentals and " + rs.getString(revenue) + " in revenue");
             }
+
             rs.close();
             conn.close();
         } catch (Exception ex) {
@@ -115,6 +116,5 @@ public class AthenaJDBCTest {
         }
 
     } // configureCreds()
-
 
 }
